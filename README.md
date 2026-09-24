@@ -20,8 +20,6 @@ Lately that's meant browser APIs that ship powerful but awkward, and tooling for
 **18** npm packages · **3,153** downloads/month · **429** LeetCode solved
 <!-- NPM_SUMMARY:END -->
 
-Open to full-stack roles and interesting problems.
-
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,nextjs,react,nodejs,fastapi,postgres,prisma,mongodb,docker,tailwind&perline=12" alt="Tech stack">
