@@ -14,7 +14,7 @@
 
 I build with TypeScript, Next.js, Node and Python. Most of what I publish comes out of work
 I was already doing — whenever I rewrite the same thing a third time, it becomes a package.
-Lately that's meant browser APIs that ship powerful but awkward, and tooling for AI agents.
+Lately that's meant browser APIs that are powerful but hard to use, and tooling for AI agents.
 
 <!-- NPM_SUMMARY:START -->
 **18** npm packages · **3,153** downloads/month · **429** LeetCode solved
