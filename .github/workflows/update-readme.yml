@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '17 4 * * *' # daily, 04:17 UTC
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths: ['scripts/update-readme.mjs', '.github/workflows/update-readme.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The script exits non-zero on empty or all-zero npm data, so a degraded
+      # registry fails the run loudly instead of committing a stub table.
+      - name: Refresh package data
+        run: node scripts/update-readme.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: refresh npm download counts"
+          git push
