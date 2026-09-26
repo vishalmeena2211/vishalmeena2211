@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=160&section=header&text=Vishal%20Meena&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Full-stack%20developer%20%C2%B7%20Bhopal,%20India&descAlignY=55&descSize=16" width="100%" alt="Vishal Meena">
 
 <!-- TYPING:START -->
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3200&pause=800&color=543DE0&center=true&vCenter=true&width=520&lines=18+packages+published+on+npm;3%2C153+downloads+every+month;429+problems+solved+on+LeetCode" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3200&pause=800&color=543DE0&center=true&vCenter=true&width=520&lines=18+packages+published+on+npm;2%2C678+downloads+every+month;429+problems+solved+on+LeetCode" alt="Typing SVG">
 <!-- TYPING:END -->
 
 <img src="https://komarev.com/ghpvc/?username=vishalmeena2211&color=543DE0&style=flat-square&label=Profile+views" alt="Profile views">
@@ -17,7 +17,7 @@ I was already doing — whenever I rewrite the same thing a third time, it becom
 Lately that's meant browser APIs that are powerful but hard to use, and tooling for AI agents.
 
 <!-- NPM_SUMMARY:START -->
-**18** npm packages · **3,153** downloads/month · **429** LeetCode solved
+**18** npm packages · **2,678** downloads/month · **429** LeetCode solved
 <!-- NPM_SUMMARY:END -->
 
 <div align="center">
